@@ -1,0 +1,207 @@
+/*Formatação de todos os elementos*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "Verdana",Arial;
+	background: url(../imagem/fundo.png) repeat-x;
+}
+
+/*Caixa principal*/
+#caixa-principal{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*Área topo*/
+#area-topo{
+	background: url(../imagem/detalhe-topo.png) no-repeat right top;
+	height: 180px;
+}
+#area-topo .logo{
+	background: url(../imagem/logo.png) no-repeat center;
+	width: 152px;
+	height: 66px;
+	margin-top: 20px;
+	text-indent: -800px;
+}
+
+/*Formatações padrão*/
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+
+/*Nav principal*/
+#nav-principal{
+	background: #B40431;
+	float: left;
+	margin-top: 25px;
+}
+#nav-principal li{
+	float: left;
+}
+#nav-principal li a{
+	color: white;
+	padding: 0 20px;
+	line-height: 45px;
+	background: url(../imagem/divisor.png) no-repeat left center;
+}
+#nav-principal a:hover{
+	color: #585858;
+}
+#nav-principal #sem-divisor{
+	background: none;
+}
+#home #nav-principal .home,
+#brasil #nav-principal .brasil,
+#fotos #nav-principal .fotos{
+	background: #FF0040;
+	cursor: text;
+}
+
+/*Área conteúdo*/
+#area-conteudo{
+	margin-top: 40px;
+}
+
+/*Primário*/
+#primario{
+	width: 355px;
+	float: left;
+	margin: 0 0 20px 235px;
+}
+.conteudo-caixa span{
+	background: #8A0829;
+	color: white;
+	text-transform: uppercase;
+	padding: 2px;
+}
+.conteudo-caixa img{
+	width: 99%;
+	border: 2px solid #084B8A;
+	margin-top: 5px;
+}
+#primario .conteudo-caixa a,
+#secundario .conteudo-caixa a{
+	color: #8A0829;
+	text-decoration: underline;
+}
+#primario .conteudo-caixa a:hover,
+#secundario .conteudo-caixa a:hover{
+	color: #FF0040;
+}
+
+/*Layout de 2 colunas*/
+.duas-colunas #primario{
+	width: 710px;
+	float: left;
+	margin: 0 0 20px 250px;
+}
+
+/*Layout de 1 coluna*/
+.uma-coluna #primario{
+	width: 960px;
+	margin: 0 0 20px 0;
+}
+
+/*Secundário*/
+#secundario{
+	width: 355px;	
+	float: left;
+	margin: 0 0 20px 15px;
+}
+#outra-cor{
+	color: gold;
+}
+
+/*Nav lateral*/
+#lateral{
+	width: 220px;
+	float: left;
+	margin: 0 0 20px -960px;
+}
+#nav-lateral a{
+	color: black;
+	line-height: 35px;
+	border-bottom: 1px solid #084B8A;
+}
+#nav-lateral a:hover{
+	background: #E6E6E6 url(../imagem/marcador.png) no-repeat left center;
+	padding-left: 20px;
+	color: #585858;
+}
+
+/*Nav inferior*/
+#nav-inferior img{
+	width: 120px;
+	float: left;
+	margin-right: 5px;
+}
+.conteudo-caixa #nav-inferior a{
+	text-decoration: none;
+	height: 93px;
+	border-bottom: 1px solid #084B8A;
+	padding: 5px;
+}
+.conteudo-caixa #nav-inferior a:hover{
+	background: #E6E6E6;
+}
+.conteudo-caixa #nav-inferior h3{
+	color: #2E64FE;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+.conteudo-caixa #nav-inferior p{
+	color: black;
+}
+
+/*Caixa*/
+.caixa{
+	background: url(../imagem/fundo-caixa.png);
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.caixa>h2{
+	background: #084B8A;
+	color: white;
+	padding: 5px 0 5px 5px;
+	font-size: 1em;
+}
+.conteudo-caixa{
+	background-color: white;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+/*Formulário*/
+label{
+	cursor: pointer;
+}
+input{
+	padding: 5px;
+}
+input[type=submit]{
+	background: #B40431;
+	color: white;
+	cursor: pointer;
+	border: 2px solid #8A0829;
+}
+
+/*Área rodapé*/
+#area-rodape{
+	background: #084B8A;
+	clear: both;
+	padding: 20px 0;
+	color: white;
+}
+#rodape{
+	width: 960px;
+	margin: 0 auto;
+}
